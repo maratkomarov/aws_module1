@@ -1,4 +1,4 @@
-null_resource "vpc" {
+resource "null_resource" "vpc" {
 }
 
 output "vpc_id" {
