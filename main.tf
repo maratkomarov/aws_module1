@@ -1,2 +1,3 @@
-null_resource "foo" {
+output "vpc_id" {
+  value = "vpc-aabbccdd"
 }
